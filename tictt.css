@@ -1,0 +1,23 @@
+.case{
+    border: 1px solid grey;
+    min-width: 80px;
+    min-height: 80px;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.x{
+    background-size: cover;
+    background-image: url(./cross-mark-4251.png);
+}
+.zero{
+    background-size: cover;
+    background-position: -16px 0;
+    background-image: url(./zanyatie-krug2.png);
+}
+.active{
+    background-color: black;
+}
